@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/primeflex/primeflex.css';
+@import '../node_modules/primeflex/themes/saga-blue.css';
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.surface-overlay {
+    background-color: #171a2e !important;
+}
+
+.text-color {
+    color: #ffffff !important;
+}
+
+.text-success {
+    color: greenyellow;
+}
+
+.text-danger {
+    color: red;
+}

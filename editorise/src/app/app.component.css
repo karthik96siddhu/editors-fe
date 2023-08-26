@@ -1,0 +1,120 @@
+/* .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/bg1.jpg');
+    background-size: cover; 
+    background-position: center; 
+    opacity: 0.6; 
+  } */
+
+.content, #user-form {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    /* height: 100vh; */
+    overflow: hidden;
+    background-size: cover; 
+}
+
+.content {
+    background-image: url('../assets/bg1.jpg');
+}
+
+#user-form {
+    background-image: url('../assets/bg2.jpg');
+}
+
+.overlay1, .overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0 10 20 / 88%);
+}
+
+/* .content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../assets/bg1.jpg') cover no-repeat;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0.5;
+    z-index: -1;
+} */
+
+#title {
+    font-family: sans-serif;
+    font-style: italic;
+    color: #f26726;
+    font-size: 26px;
+    letter-spacing: 0.5px;
+    margin-bottom: 0;
+}
+
+#subtitle {
+    font-family: sans-serif;
+    font-style: normal;
+    color: #aba9a9;
+    font-size: 16px;
+    margin: 0;
+}
+
+#summary {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    font-size: 16px;
+    letter-spacing: 0.7px;
+}
+
+#arrow-down {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-subtitle {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#submit-btn {
+    padding: 10px 30px;
+    background-color: #f26726;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+#add-music-btn {
+    padding: 10px 20px;
+    background-color: #f26726;
+    border: none;
+    border-radius: 5px;
+}
+
+.svg-icon {
+    padding: 10px;
+    border: none;
+    background-color: #171a2e;
+    border-radius: 2px;
+}
+
+input[type="date"]::-webkit-input-placeholder {
+    color: #999; /* Placeholder text color */
+  }
